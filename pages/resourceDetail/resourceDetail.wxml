@@ -1,0 +1,14 @@
+<!--pages/resourceDetail/resourceDetail.wxml-->
+<view class='cwrap'>
+    <view class='res-title'>教程列表:</view>
+    <view class='list'>
+        <view class='res-list'>
+            <view class='list-col'>Java</view>
+            <view class='list-content' bindtap='callBomb'>Java大牛 带你从0到上线开发企业级电商项目</view>
+        </view>
+        <view class='res-collect'>
+            <view class='collect-btn'>收藏</view>
+        </view>
+    </view>
+</view>
+<bomb title='{{title}}' href='{{href}}' opacity='{{opacity}}' zIndex='{{zIndex}}' bind:hideBomb='hideBomb'></bomb>

@@ -1,0 +1,52 @@
+/* pages/resources/resources.wxss */
+.title::before, .title::after{
+    display: inline-block;
+    content: "";
+    width: 30px;
+    height: 1px;
+    background-color: #999;
+    vertical-align: middle;
+    margin-top: -2px;
+}
+
+.title::before{
+    margin-right: 5px;
+}
+
+.title::after{
+    margin-left: 5px;
+}
+
+.resource{
+    margin-top: 30rpx;
+}
+
+.resource-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+ .resource-list::after{
+    content: '';
+    flex: auto;
+} 
+
+.list-detail{
+    width: 33.3%;
+    margin: 20rpx 0;
+}
+
+.resource-img{
+    display: block;
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+    border-radius: 100%;
+}
+
+.resource-title{
+    width: 100%;
+    text-align: center;
+}

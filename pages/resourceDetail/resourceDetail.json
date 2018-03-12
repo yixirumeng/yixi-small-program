@@ -1,0 +1,5 @@
+{
+    "usingComponents": {
+        "bomb": "/pages/bomb/bomb"
+    }
+}

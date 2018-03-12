@@ -1,0 +1,43 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/classify/classify",
+    "pages/resources/resources",
+    "pages/collection/collection",
+    "pages/logs/logs",
+    "pages/resourceDetail/resourceDetail"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "水悦洞天",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar":{
+    "color": "#000",
+    "selectedColor": "#059a83",
+    "backgroundColor": "#ADD8E6",
+    "borderStyle": "white",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "主页",
+      "iconPath": "images/index.png",
+      "selectedIconPath": "images/index-on.png"
+    }, {
+      "pagePath": "pages/classify/classify",
+      "text": "分类",
+      "iconPath": "images/classify.png",
+      "selectedIconPath": "images/classify-on.png"
+    }, {
+      "pagePath": "pages/resources/resources",
+      "text": "资源",
+      "iconPath": "images/resources.png",
+      "selectedIconPath": "images/resources-on.png"
+    }, {
+      "pagePath": "pages/collection/collection",
+      "text": "收藏",
+      "iconPath": "images/collection.png",
+      "selectedIconPath": "images/collection-on.png"
+    }]
+  }
+}

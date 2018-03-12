@@ -1,0 +1,50 @@
+/* pages/collection/collection.wxss */
+.user-info{
+    text-align: center;
+    background-color: rgba(11, 108, 166, .5);
+    padding: 50rpx 0;
+    border-bottom: 4px solid #ccc;
+}
+
+.user-avatar{
+    display: inline-block;
+    width: 128rpx;
+    height: 128rpx;
+    vertical-align: middle;
+    margin-right: 30rpx;
+}
+
+.user-info text{
+    vertical-align: middle;
+    color: #fff;
+}
+
+.collect-title{
+    text-align: center;
+    font-size: 14px;
+    color: #bbb;
+    padding: 16rpx 0;
+    border-bottom: 1px solid #eee;
+}
+
+.cwrap{
+    margin-top: 60rpx;
+}
+
+.collect-list{
+    margin-bottom: 40rpx;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-detail{
+    display: block;
+    width: 600rpx;
+}
+
+.cancel{
+    display: block;
+    width: 32px;
+    height: 32px;
+    margin-top: -8rpx;
+}

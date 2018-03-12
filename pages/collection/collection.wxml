@@ -1,0 +1,18 @@
+<!--pages/collection/collection.wxml-->
+<view class=''>
+    <view class='user-info'>
+        <image src='{{userAvatar}}' class='user-avatar'/>
+        <text>{{userName}}</text>
+    </view>
+    <view class='collect-title'>我的收藏</view>
+    <view class='cwrap'>
+        <view class='collect-list'>
+            <view class='list-detail no-wrap'>JS判断用户是否在浏览当前页面在浏览当前在浏览当前</view>
+            <image src='../../images/cancel.png' class='cancel'/>
+        </view>
+        <view class='collect-list'>
+            <view class='list-detail no-wrap'>JS判断用户是否在浏览当前页面在浏览当前在浏览当前</view>
+            <image src='../../images/cancel.png' class='cancel'/>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,93 @@
+<!--pages/resources/resources.wxml-->
+<view class='cwrap'>
+    <view class='title'>视频教程链接</view>
+    <view class='resource'>
+        <view>前端：</view>
+        <view class='resource-list'>
+            <view class='list-detail'>
+                <navigator url='/pages/resourceDetail/resourceDetail' hover-class="none">
+                    <image src='../../images/vue.jpg' class='resource-img'/>
+                    <view class='resource-title'>Vue</view>
+                </navigator>
+            </view>
+            <view class='list-detail'>
+                <image src='../../images/vue.jpg' class='resource-img'/>
+                <view class='resource-title'>Vue</view>
+            </view>
+            <view class='list-detail'>
+                <image src='../../images/vue.jpg' class='resource-img'/>
+                <view class='resource-title'>Vue</view>
+            </view>
+            <view class='list-detail'>
+                <image src='../../images/vue.jpg' class='resource-img'/>
+                <view class='resource-title'>Vue</view>
+            </view>
+            <view class='list-detail'>
+                <image src='../../images/vue.jpg' class='resource-img'/>
+                <view class='resource-title'>Vue</view>
+            </view>
+            <view class='list-detail'>
+                <image src='../../images/vue.jpg' class='resource-img'/>
+                <view class='resource-title'>Vue</view>
+            </view>
+        </view>
+    </view>
+    <view class='resource'>
+        <view>后端：</view>
+        <view class='resource-list'>
+            <view class='list-detail'>
+                <image src='../../images/vue.jpg' class='resource-img'/>
+                <view class='resource-title'>Vue</view>
+            </view>
+            <view class='list-detail'>
+                <image src='../../images/vue.jpg' class='resource-img'/>
+                <view class='resource-title'>Vue</view>
+            </view>
+            <view class='list-detail'>
+                <image src='../../images/vue.jpg' class='resource-img'/>
+                <view class='resource-title'>Vue</view>
+            </view>
+            <view class='list-detail'>
+                <image src='../../images/vue.jpg' class='resource-img'/>
+                <view class='resource-title'>Vue</view>
+            </view>
+            <view class='list-detail'>
+                <image src='../../images/vue.jpg' class='resource-img'/>
+                <view class='resource-title'>Vue</view>
+            </view>
+            <view class='list-detail'>
+                <image src='../../images/vue.jpg' class='resource-img'/>
+                <view class='resource-title'>Vue</view>
+            </view>
+        </view>
+    </view>
+    <view class='resource'>
+        <view>移动应用：</view>
+        <view class='resource-list'>
+            <view class='list-detail'>
+                <image src='../../images/vue.jpg' class='resource-img'/>
+                <view class='resource-title'>Vue</view>
+            </view>
+            <view class='list-detail'>
+                <image src='../../images/vue.jpg' class='resource-img'/>
+                <view class='resource-title'>Vue</view>
+            </view>
+            <view class='list-detail'>
+                <image src='../../images/vue.jpg' class='resource-img'/>
+                <view class='resource-title'>Vue</view>
+            </view>
+            <view class='list-detail'>
+                <image src='../../images/vue.jpg' class='resource-img'/>
+                <view class='resource-title'>Vue</view>
+            </view>
+            <view class='list-detail'>
+                <image src='../../images/vue.jpg' class='resource-img'/>
+                <view class='resource-title'>Vue</view>
+            </view>
+            <view class='list-detail'>
+                <image src='../../images/vue.jpg' class='resource-img'/>
+                <view class='resource-title'>Vue</view>
+            </view>
+        </view>
+    </view>
+</view>

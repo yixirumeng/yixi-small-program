@@ -1,0 +1,59 @@
+<!--index.wxml-->
+<view>
+  <swiper class='swiper' indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" indicator-color="{{indicatorColor}}" 
+  indicator-active-color="{{indicatorActiveColor}}" circular="{{circular}}" previous-margin="{{previousMargin}}" 
+  next-margin="{{nextMargin}}">
+    <block wx:for="{{imgUrls}}" wx:key="{{index}}">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image"/>
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class='title'>前端知识分享与总结</view>
+  <view class='update'>最新更新：</view>
+  <view class='content'>
+    <navigator url='/pages/classify/classify' open-type="switchTab" hover-class='none'>
+        <view class='content-lists'>
+            <view class='content-image'>
+                <image src="../../images/scroll-load.jpg"/>
+            </view>
+            <view class='content-info'>
+                <view class='content-title no-wrap'>实现移动端页面滚动加载更多实现移动端页面滚动加载更多</view>
+                <view class='content-type'>类别：web</view>
+                <view class='content-time'>时间：2018-3-3</view>
+            </view>
+        </view>
+    </navigator>
+        <view class='content-lists'>
+        <view class='content-image'>
+            <image src="../../images/scroll-load.jpg"/>
+        </view>
+        <view class='content-info'>
+            <view class='content-title no-wrap'>实现移动端页面滚动加载更多实现移动端页面滚动加载更多</view>
+            <view class='content-type'>类别：web</view>
+            <view class='content-time'>时间：2018-3-3</view>
+        </view>
+        </view>
+        <view class='content-lists'>
+        <view class='content-image'>
+            <image src="../../images/scroll-load.jpg"/>
+        </view>
+        <view class='content-info'>
+            <view class='content-title no-wrap'>实现移动端页面滚动加载更多实现移动端页面滚动加载更多</view>
+            <view class='content-type'>类别：web</view>
+            <view class='content-time'>时间：2018-3-3</view>
+        </view>
+        </view>
+        <view class='content-lists'>
+        <view class='content-image'>
+            <image src="../../images/scroll-load.jpg"/>
+        </view>
+        <view class='content-info'>
+            <view class='content-title no-wrap'>实现移动端页面滚动加载更多实现移动端页面滚动加载更多</view>
+            <view class='content-type'>类别：web</view>
+            <view class='content-time'>时间：2018-3-3</view>
+        </view>
+        </view>
+  </view>
+</view>

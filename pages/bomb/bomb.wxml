@@ -1,0 +1,13 @@
+<!--pages/bomb/bomb.wxml-->
+<view class='bomb' style='opacity:{{opacity}};z-index:{{zIndex}}'>
+    <view class='bomb-content'>
+        <view class='bomb-title'>
+            <view>点击确定复制{{title}}链接</view>
+            <view>查看详细内容</view>
+        </view>
+        <view class='bomb-href'>{{href}}</view>
+        <view class='bomb-btn' bindtap='closeBomb'>
+            确定
+        </view>
+    </view>
+</view>

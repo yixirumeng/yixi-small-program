@@ -1,0 +1,31 @@
+<!--pages/classify/classify.wxml-->
+<view class='info'>
+    <view class='info-classify'>
+        <view class='{{listCurrent === index ? "classify-on" : ""}}' wx:for='{{classify}}' wx:key='{{index}}' bindtap='changeList' data-idx='{{index}}'>{{item}}</view>
+    </view>
+    <view class='info-list' hidden='{{listCurrent !== 0}}'>
+        <view wx:for='{{listDetail1}}' wx:key='{{index}}' bindtap='callBomb'>
+            <view class='list-detail'>
+                <view class='no-wrap'>{{item.title}}</view>
+                <view class='list-time'>{{item.time}}</view>
+            </view>
+        </view>
+    </view>
+    <view class='info-list' hidden='{{listCurrent !== 1}}'>
+        <view wx:for='{{listDetail2}}' wx:key='{{index}}'>
+            <view class='list-detail'>
+                <view class='no-wrap'>{{item.title}}</view>
+                <view class='list-time'>{{item.time}}</view>
+            </view>
+        </view>
+    </view>
+    <view class='info-list' hidden='{{listCurrent !== 2}}'>
+        <view wx:for='{{listDetail3}}' wx:key='{{index}}'>
+            <view class='list-detail'>
+                <view class='no-wrap'>{{item.title}}</view>
+                <view class='list-time'>{{item.time}}</view>
+            </view>
+        </view>
+    </view>
+</view>
+<bomb title='{{title}}' href='{{href}}' opacity='{{opacity}}' zIndex='{{zIndex}}' bind:hideBomb='hideBomb'></bomb>

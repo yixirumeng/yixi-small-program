@@ -1,0 +1,35 @@
+/* pages/resourceDetail/resourceDetail.wxss */
+.res-title{
+    font-size: 18px;
+}
+
+.list{
+    padding: 30rpx 0;
+    border-bottom: 1px dashed rgba(11, 108, 166, .8);
+}
+
+.res-list{
+    display: flex
+}
+
+.list-col{
+    align-self: center;
+}
+
+.list-content{
+    margin-left: 40rpx;
+    text-align: justify;
+}
+
+.res-collect{
+    text-align: right;
+}
+
+.collect-btn{
+    display: inline-block;
+    font-size: 14px;
+    padding: 6rpx 16rpx;
+    background-color: rgba(11, 108, 166, .8);
+    color: #fff;
+    line-height: 1;
+}
