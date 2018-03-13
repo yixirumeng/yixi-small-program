@@ -50,7 +50,7 @@ Page({
       ],
       listCurrent: 0,
       title: '文章',
-      href: 'https://yixirumeng.github.io/2018/03/03/browser-tab-change/',
+      href: 'https://www.baidu.com',
       opacity: 0,
       zIndex: -1
   },
@@ -123,6 +123,9 @@ Page({
       })
   },
   hideBomb() {
+      wx.setClipboardData({
+          data: this.data.href
+      })
       this.setData({
           opacity: 0,
           zIndex: -1
